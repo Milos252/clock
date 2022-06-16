@@ -3,6 +3,7 @@
 *{
     font-family: 'Staatliches', cursive;
     color: white;
+    cursor: none;
 }
 
 html {
@@ -29,6 +30,7 @@ div {
 p {
     font-size: 20em;
     text-align: center;
+    user-select: none;
 }
 
 @media only screen and (max-width: 900px){
