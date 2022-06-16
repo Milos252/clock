@@ -6,7 +6,7 @@ function addZero(i) {
 setInterval(() => {
     let today = new Date();
     let time =
-        today.getHours() + ':' + today.getMinutes() + ':' + addZero(today.getSeconds());
+        addZero(today.getHours()) + ':' + addZero(today.getMinutes()) + ':' + addZero(today.getSeconds());
 
     let p = document.querySelector('p')
 
